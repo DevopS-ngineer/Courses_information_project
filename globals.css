@@ -1,0 +1,14 @@
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-bg {
+  /* Aapke pasandida colors ka mix */
+  background: linear-gradient(135deg, #2e1065, #1e293b, #4c1d95, #0f172a);
+  background-size: 400% 400%;
+  animation: gradientAnimation 2s ease-in-out infinite;
+  min-height: 100vh;
+  color: white;
+}
